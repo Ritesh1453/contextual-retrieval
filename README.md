@@ -20,16 +20,11 @@ A Python-based document retrieval system that combines ChromaDB for vector stora
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ritesh1453/contextual-retrieval.git
 cd contextual-retrieval
 ```
 
 2. Install dependencies using uv:
-```bash
-uv pip install sentence-transformers chromadb numpy tqdm google-generativeai pypdf markdown
-```
-
-Or install using the provided `pyproject.toml`:
 ```bash
 uv pip install .
 ```
